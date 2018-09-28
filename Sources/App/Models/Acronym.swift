@@ -12,7 +12,7 @@ final class Acronym: Codable {
     }
 }
 
-extension Acronym: SQLiteModel {}
+extension Acronym: MySQLModel {}
 
 extension Acronym: Migration {}
 
